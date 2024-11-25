@@ -1,0 +1,14 @@
+ITER(1) | yolo11m.pt | Inference Time : 1.263(s) | Code Time : 6.199(s)
+
+ITER(2) | yolo11m.pt | Inference Time : 1.103(s) | Code Time : 1.104(s)
+
+ITER(3) | yolo11m.pt | Inference Time : 1.064(s) | Code Time : 1.066(s)
+
+ITER(4) | yolo11m.pt | Inference Time : 1.108(s) | Code Time : 1.109(s)
+
+ITER(5) | yolo11m.pt | Inference Time : 1.127(s) | Code Time : 1.127(s)
+
+ITER(6) | yolo11m.pt | Inference Time : 1.054(s) | Code Time : 1.055(s)
+
+ITER(7) | yolo11m.pt | Inference Time : 1.012(s) | Code Time : 1.013(s)
+

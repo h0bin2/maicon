@@ -119,4 +119,3 @@ if __name__ == "__main__":
         main(True)
     else:
         main(False)
-    input()
