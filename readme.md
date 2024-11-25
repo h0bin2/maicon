@@ -12,7 +12,7 @@ python startpack.py true/false cpu/gpu
 
 1. true 한번 실행할 때 여러번, false 실행 당 1번
 2. gpu 있으면 gpu, 없으면 cpu
-3. 그냥 python 실행할 땐 py/models, py/logs 에 불러오기/저장이 된다.
+3. 그냥 python 실행할 땐 /models, /logs 에 불러오기/저장이 된다.
 
 4. 모델을 추가로 넣고 실험하고 싶으면 어떻게 실행할 건지에 따라 맞는 models 폴더에 넣으면 됨. 
     대신 기본으로 불러오는(yolo11m.pt, rtdetr-l.pt) 
