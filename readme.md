@@ -2,6 +2,11 @@
 
 cpu.bat / gpu.bat 실행
 
+안되면 pip install nvidia-ml-py3 거나 jetson nano에 맞게 설치해야 한다.
+이게 gpu 사용량 보려고 설치하는 라이브러리인데 jetson nano도 똑같은진 ...
+
+일단 gpu 출력말고 돌아가는지만 보려면 base.py 실행하자.
+
 or 
 
 cd py
