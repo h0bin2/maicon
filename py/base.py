@@ -12,7 +12,7 @@ IMG_SIZE = (640, 640, 3)
 IMG_TEST = np.zeros(IMG_SIZE)
 
 
-# 파일 경로 잘 넣으면 테스트 가능
+# models 폴더에 원하는 pt, engine 파일 넣으면 여기서도 뜰 수 있다.
 MODEL = ["yolo11m.pt", "yolo11l.pt", "rtdetr-l.pt", "yolo11l.engine"]
 ITERATION = 7
 for model in os.listdir("models/"):
