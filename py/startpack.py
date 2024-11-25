@@ -83,6 +83,9 @@ def module(handle):
         model = RTDETR("models/" + modelFile)
     print(f"MODEL LOAD TIME : {time.time() - startTime:.03f}(s)")
 
+    if sys.argv[2] == "gpu":
+        model.to("cuda")
+
     for iter in range(ITERATION):
         startTime = time.time()
         infTime, results = predict(model, batch)
@@ -91,7 +94,7 @@ def module(handle):
         inf_info = f"ITER({iter+1}) | {modelFile.split('/')[-1]} | Inference Time : {infTime:.03f}(s) | Code Time : {codeTime:.03f}(s)"
         print(inf_info)
 
-        if sys.argv[1] == "gpu":
+        if sys.argv[2] == "gpu":
             info = nvidia_smi.nvmlDeviceGetMemoryInfo(handle)
             vram_info = f"Total memory : { (info.total/1073741824):03f} GB | Used memory : { (info.used/1073741824):03f} GB | Free memory : { (info.free/1073741824):03f} GB"
 

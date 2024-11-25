@@ -51,7 +51,12 @@ def set_batch():
 def predict(model, batch):
     batch_input = [IMG_TEST] * batch
     results = model.predict(
-        batch_input, show_labels=False, show_conf=False, show_boxes=False, verbose=False
+        batch_input,
+        show_labels=False,
+        show_conf=False,
+        show_boxes=False,
+        verbose=False,
+        device=0,
     )
     batch_infTime = []
     for result in results:
@@ -80,6 +85,7 @@ def module(handle):
         model = YOLO("models/" + modelFile)
     elif "rtdetr" in modelFile:
         model = RTDETR("models/" + modelFile)
+    model.to("cuda")
     print(f"MODEL LOAD TIME : {time.time() - startTime:.03f}(s)")
 
     for iter in range(ITERATION):
