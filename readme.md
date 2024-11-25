@@ -1,5 +1,4 @@
 ---
-#pip install nvidia-ml-py3
 
 cpu.bat / gpu.bat 실행
 
