@@ -13,7 +13,7 @@ IMG_TEST = np.zeros(IMG_SIZE)
 
 
 # models 폴더에 원하는 pt, engine 파일 넣으면 여기서도 뜰 수 있다.
-MODEL = ["yolo11m.pt", "yolo11l.pt", "rtdetr-l.pt", "yolo11l.engine"]
+MODEL = ["yolo11m.pt", "yolo11l.pt", "rtdetr-l.pt", "yolo11n.pt", "yolo11s.pt"]
 ITERATION = 7
 for model in os.listdir("models/"):
     MODEL.append(model)

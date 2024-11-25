@@ -4,7 +4,6 @@
 
 or 
 
-cd py
 pip install nvidia-ml-py3
 
 python startpack.py true/false cpu/gpu
