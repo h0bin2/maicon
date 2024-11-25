@@ -1,14 +1,14 @@
-ITER(1) | yolo11m.pt | Inference Time : 0.675(s) | Code Time : 5.099(s)
+ITER(1) | yolo11m.pt | Inference Time : 0.533(s) | Code Time : 4.313(s)
 
-ITER(2) | yolo11m.pt | Inference Time : 0.600(s) | Code Time : 3.013(s)
+ITER(2) | yolo11m.pt | Inference Time : 0.553(s) | Code Time : 2.764(s)
 
-ITER(3) | yolo11m.pt | Inference Time : 0.579(s) | Code Time : 2.895(s)
+ITER(3) | yolo11m.pt | Inference Time : 0.531(s) | Code Time : 2.655(s)
 
-ITER(4) | yolo11m.pt | Inference Time : 0.553(s) | Code Time : 2.766(s)
+ITER(4) | yolo11m.pt | Inference Time : 0.536(s) | Code Time : 2.681(s)
 
-ITER(5) | yolo11m.pt | Inference Time : 0.554(s) | Code Time : 2.773(s)
+ITER(5) | yolo11m.pt | Inference Time : 0.518(s) | Code Time : 2.592(s)
 
-ITER(6) | yolo11m.pt | Inference Time : 0.550(s) | Code Time : 2.752(s)
+ITER(6) | yolo11m.pt | Inference Time : 0.495(s) | Code Time : 2.477(s)
 
-ITER(7) | yolo11m.pt | Inference Time : 0.515(s) | Code Time : 2.577(s)
+ITER(7) | yolo11m.pt | Inference Time : 0.503(s) | Code Time : 2.513(s)
 
