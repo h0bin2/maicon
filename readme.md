@@ -1,6 +1,7 @@
 ---
 
 일단 gpu 출력말고 돌아가는지만 보려면 base.py 실행하자.
+python base.py true/false
 
 or 
 
