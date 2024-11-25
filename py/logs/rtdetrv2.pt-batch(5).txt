@@ -1,0 +1,14 @@
+ITER(1) | rtdetrv2.pt | Inference Time : 1.062(s) | Code Time : 7.267(s)
+
+ITER(2) | rtdetrv2.pt | Inference Time : 0.819(s) | Code Time : 4.093(s)
+
+ITER(3) | rtdetrv2.pt | Inference Time : 0.898(s) | Code Time : 4.490(s)
+
+ITER(4) | rtdetrv2.pt | Inference Time : 0.857(s) | Code Time : 4.285(s)
+
+ITER(5) | rtdetrv2.pt | Inference Time : 0.834(s) | Code Time : 4.171(s)
+
+ITER(6) | rtdetrv2.pt | Inference Time : 0.896(s) | Code Time : 4.483(s)
+
+ITER(7) | rtdetrv2.pt | Inference Time : 0.854(s) | Code Time : 4.272(s)
+
