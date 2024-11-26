@@ -19,7 +19,7 @@ ITERATION = 7
 for model in os.listdir("models/"):
     MODEL.append(model)
 
-MODEL = list(set(MODEL))
+MODEL = sorted(list(set(MODEL)))
 
 
 def set_model():
